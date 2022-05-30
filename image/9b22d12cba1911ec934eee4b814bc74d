@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="huaban" content="nopin" />
+    <meta name="csrf-token" content="">
+    <meta http-equiv="Content-Security-Policy" content="base-uri 'self'; child-src 'self' *.captcha.qq.com *.cme.qcloud.com *.preview.myqcloud.com *.wj.qq.com blob: captcha.guard.qcloud.com cloud.tencent.com graph.qq.com h5.aisee.qq.com http://smart.oa.com lexiangla.com lxauth.woa.com miniio.xinhuaedu.org.cn open.work.weixin.qq.com panshi.tencent.com passport.oa.com passport.woa.com rocket.webdev.com v.qq.com v8.learn.oa.com weixin: weixinping: wj.qq.com; connect-src 'self' *.eceibs.net *.myqcloud.com *.qcloud.com *.qq.com *.talentyun.com *.v.smtcdns.com *.v.smtcdns.net *.vod2.myqcloud.com *.yidianzhishi.cn analytics.lexiang-asset.com analytics.lexiang-asset.net blob: data: file-pub.lexiang-asset.com file-pub.lexiang-asset.net file.lexiang-asset.com image-pub.lexiang-asset.com image-pub.lexiang-asset.net lexiangla.com liveplay.lexiangla.com liveplay.lexiangla.net liveplayh.lexiangla.com liveplayh.lexiangla.net liveplayhls.lexiangla.net livepush.lexiangla.com livepush.lexiangla.net oneapm.lexiang-asset.com pxy.video.qq.com sentry.pot.tencent.com translate.googleapis.com vm.gtimg.cn vod2.qcloud.com vodreport.qcloud.com wss://wss.im.qcloud.com wss://wss.tim.qq.com www.google-analytics.com; default-src 'self'; font-src 'self' data: imgcache.qq.com static.lexiang-asset.com; frame-src 'self' *.captcha.qq.com *.cme.qcloud.com *.gov.weixin.qq.com *.myqcloud.com *.preview.myqcloud.com *.tcb.qcloud.la *.tcloudbaseapp.com *.wj.qq.com class.lexiang-asset.com cloud.tencent.com dt.beacon.tencent.com graph.qq.com h5.aisee.qq.com http://smart.oa.com lexiangla.com lxauth.woa.com miniio.xinhuaedu.org.cn open.txdocs.qq.com open.work.weixin.qq.com panshi.tencent.com passport.oa.com passport.woa.com rocket.webdev.com taishan-test.lexiang-app.com uni.weixiao.qq.com v.qq.com v8.learn.oa.com weixin: weixinping: wj.qq.com; img-src * blob: data:; media-src 'self' * blob:; object-src imgcache.qq.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.captcha.qq.com *.map.gtimg.com *.map.qq.com *.qcloud.com *.v.qq.com *.video.qq.com 3gimg.qq.com analytics.lexiang-asset.com analytics.lexiang-asset.net avc.cloud.tencent.com captcha.gtimg.com class.lexiang-asset.com file-pub.lexiang-asset.com file-pub.lexiang-asset.net imgcache.gtimg.cn imgcache.qq.com livew.l.qq.com map.qq.com mapapi.qq.com oneapm.lexiang-asset.com pingjs.qq.com play.video.qcloud.com res.wx.qq.com static-i18n.lexiang-asset.com static-i18n.lexiang-asset.net static.lexiang-asset.com translate.google.com translate.googleapis.com v.qq.com vd.l.qq.com vm.gtimg.cn vs-cdn.tencent-cloud.com www.googletagmanager.com; style-src 'self' 'unsafe-inline' *.captcha.qq.com class.lexiang-asset.com imgcache.qq.com static.lexiang-asset.com translate.googleapis.com vm.gtimg.cn; worker-src 'self' blob:">
+    <meta name="keywords" content="腾讯乐享,开放式知识管理,企业文化建设,内部沟通,企业培训,团队内部协作,社区化知识管理专家,互联网式知识社区,一站式企业社区" />
+    <meta name="description" content="腾讯乐享是一个以知识管理为核心的企业社区应用。基于腾讯10年知识管理的实践与沉淀，腾讯乐享打造多维度、跨终端、定制化的企业社区，提供文档、问答、活动、论坛、课堂等一系列应用，为企业解决知识管理、文化建设、内部沟通等管理问题，助力企业成长。" />
+    <meta name="og:description" content="腾讯乐享是一个以知识管理为核心的企业社区应用。基于腾讯10年知识管理的实践与沉淀，腾讯乐享打造多维度、跨终端、定制化的企业社区，提供文档、问答、活动、论坛、课堂等一系列应用，为企业解决知识管理、文化建设、内部沟通等管理问题，助力企业成长。" />
+    <meta name="og:title" content="欢迎登录腾讯乐享" />
+    <meta name="og:image" content="" />
+    <title>欢迎登录腾讯乐享</title>
+    <script>
+// 监控LCP https://github.com/GoogleChrome/web-vitals
+!function(){var e,t,n,i,a={passive:!0,capture:!0},r=new Date,o=function(){i=[],t=-1,e=null,f(addEventListener)},s=function(i,a){e||(e=a,t=i,n=new Date,f(removeEventListener),c())},c=function(){if(t>=0&&t<n-r){var a={entryType:"first-input",name:e.type,target:e.target,cancelable:e.cancelable,startTime:e.timeStamp,processingStart:e.timeStamp+t};i.map((function(e){e(a)})),i=[]}},l=function(e){if(e.cancelable){var t=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,t){var n=function(){s(e,t),r()},i=function(){r()},r=function(){removeEventListener("pointerup",n,a),removeEventListener("pointercancel",i,a)};addEventListener("pointerup",n,a),addEventListener("pointercancel",i,a)}(t,e):s(t,e)}},f=function(e){["mousedown","keydown","touchstart","pointerdown"].map((function(t){return e(t,l,a)}))},u="hidden"===document.visibilityState?0:1/0;addEventListener("visibilitychange",(function e(t){"hidden"===document.visibilityState&&(u=t.timeStamp,removeEventListener("visibilitychange",e,!0))}),!0),o(),self.webVitals=self.webVitals||{},self.webVitals.firstInputPolyfill=function(e){i.push(e),c()},self.webVitals.resetFirstInputPolyfill=o,self.webVitals.firstHiddenTime=u}();
+// 监控TTI https://github.com/GoogleChromeLabs/tti-polyfill?spm=a2c4e.10696291.0.0.387e19a4Qoczy7
+!function(){if('PerformanceLongTaskTiming' in window){var g=window.__tti={e:[]};
+g.o=new PerformanceObserver(function(l){g.e=g.e.concat(l.getEntries())});
+g.o.observe({entryTypes:['longtask']})}}();
+// 监控FPS
+;(function(){
+  var clock = window.performance || Date;
+  var lastTime = clock.now();
+  var frame = 0;
+  var lastFameTime = clock.now();
+  var fpsCollection = [];
+  var disable = false;
+  var max = 60 * 5;
+  var loop = function () {
+    if (disable) return;
+    var now = clock.now();
+    var fs = now - lastFameTime;
+    lastFameTime = now;
+    var fps = Math.round(1000 / fs);
+    frame += 1;
+    if (now > 1000 + lastTime) {
+      fps = Math.round((frame * 1000) / (now - lastTime));
+      frame = 0;
+      lastTime = now;
+      if (fpsCollection.length > max) {
+        disable = true;
+      }
+      fpsCollection.push(fps);
+    }
+    window.requestAnimationFrame && window.requestAnimationFrame(loop);
+  };
+  window.fps = {
+    get: function(){
+      return [].concat(fpsCollection);
+    },
+    stop: function() {
+      disable = true;
+    },
+    restart: function() {
+      disable = false;
+      fpsCollection = [];
+      var lastTime = clock.now();
+      var frame = 0;
+      var lastFameTime = clock.now();
+      loop();
+    }
+  }
+  loop();
+})();
+</script>
+    <script>
+      if (navigator.userAgent.indexOf('MSIE') >= 0) {
+        window.location.href='https://lexiangla.com/errors/nonsupport'
+      }
+
+      window.lxReportData = {
+        domain: 'lexiangla.com',
+        assetDomain: 'lexiang-asset.com',
+        companyCode: '',
+        companyId: '',
+        companyName: '',
+        teamCode: '',
+        staffId: '',
+        staffUuid: '',
+        staffName: ''
+      }
+    </script>
+
+    <link href="//static.lexiang-asset.com/build/lib/bootstrap/css/bootstrap-3.3-a6d7ad598b.7.min.css" rel="stylesheet">
+    <link href="//static.lexiang-asset.com/build/css/common/common-d3e69bf595.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="print" href="//static.lexiang-asset.com/build/css/common/print-a52d141bed.css" />
+  </head>
+  <body id="app-layout">
+      <div class="spark-screen relative">
+      <div class="js-vars hide" data-enable_i18n=1 data-env="production" data-language_setting="" ></div>
+    <div id="app-vue">
+    <not-found v-if="notFound"></not-found>
+    <forbidden v-else-if="forbidden"></forbidden>
+    <router-view v-else></router-view>
+  </div>
+  </div>
+
+  <script src="//static.lexiang-asset.com/build/lib/jquery-f9c7afd057.min.js"></script>
+  <script src="//static.lexiang-asset.com/build/lib/bootstrap/js/bootstrap-c49b784d8f.min.js"></script>
+  <script src="//static.lexiang-asset.com/build/lib/polyfill-6fef55c62d.min.js"></script>
+  <script src="//static.lexiang-asset.com/build/js/common/index-8999134e75.js"></script>
+    <script src="//static.lexiang-asset.com/build/js/vendors-f6c0f0bc.js"></script>
+  <script src="//static.lexiang-asset.com/build/js/commons-61b29881.js"></script>
+  <script src="//static.lexiang-asset.com/build/js/svg-icons-1de5eb37.js"></script>
+      <script src="//static.lexiang-asset.com/build/js/account/app-a816df9254.js"></script>
+  </body>
+</html>
